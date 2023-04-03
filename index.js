@@ -46,12 +46,9 @@ inquirer
   },
   ])
 
-
-
+  .then((answers) => {
+    const { title, description, installation, usage, contributing, tests, license, badge } = answers;
  
-
-
-inquirer.prompt(questions).then((answers) => {
 
   const badgeOptions = {
     label: 'License',
@@ -102,8 +99,6 @@ This project is licensed under the ${answers.license} license.
   `;
 
 
-
-
   fs.writeFile('README.md', readme, (err) => {
     if (err) throw err;
     console.log('README file created!');
@@ -112,66 +107,3 @@ This project is licensed under the ${answers.license} license.
 
 
 
-
-
-
-// inquirer
-//   .prompt([
-//     {
-//       type: 'input',
-//       name: 'name',
-//       message: "What is your name?",
-//     },
-//     {
-//       type: 'input',
-//       name: 'placeOfOrigin',
-//       message: "Where are you from?",
-//     },
-//     {
-//       type: 'input',
-//       name: 'linkedInURL',
-//       message: "What is your linked in URL?",
-//     },
-//     {
-//         type: 'input',
-//         name: 'gitHubURL',
-//         message: "What is your GitHubURL in URL?",
-//       },
-//   ])
-  
-//   .then((answers) => {
-//     const { name, placeOfOrigin, linkedInURL, gitHubURL} = answers;
-
-//      var html = 
-//    `<!DOCTYPE html>
-//   <html lang="en">
-//   <head>
-//       <meta charset="UTF-8">
-//       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-//       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-//       <title> PortfolioGen</title>
-//   </head>
-//   <body>
-//       <h1> Portfolio Generator</h1>
-//       <p> ${name}</p>
-//        <p> ${placeOfOrigin} </p>
-//        <a href="https://www.linkedin.com/feed/"> ${linkedInURL} </a>
-//        <p> ${gitHubURL} </p>
-  
-//   </body>
-//   </html>
-//   ` 
-
-//     fs.writeFile('index.html', html, (err) => {
-//       if (err) {
-//         console.error(err);
-//       } else {
-//         console.log('Data is saved!');
-//       }
-//     });
-//   })
-//   .catch((error) => {
-//     console.error(error);
-//   });
-
- 
