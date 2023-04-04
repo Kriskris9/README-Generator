@@ -46,14 +46,24 @@ inquirer
     },
     {
       type: "input",
-      name: "questions",
+      name: "gitHubUserName",
+      message: "Please enter your GitHub username along with a link to your GitHub profile.",
+    },
+    {
+      type: "input",
+      name: "linktoGitHubProfile",
+      message: "Please enter a link to your GitHub profile.",
+    },
+    {
+      type: "input",
+      name: "gitHubEmail",
       message: "What is your GitHub email address that contributors may contact?",
     }
   ])
 
   .then((answers) => {
 
-    const { title, description,  installation, usage, contributing, tests, license, questions } = answers;
+    const { title, description,  installation, usage, contributing, tests, license, gitHubUserName, gitHubEmail, linktoGitHubProfile } = answers;
 
     let licenseBadge;
     switch (license) {
@@ -110,8 +120,7 @@ This project is licensed under the ${answers.license} license.
 
 ## Questions
 
-${answers.questions}
-
+If you have any questions about the repo, open an issue or contact me directly at ${answers.gitHubEmail}. My GitHub username is${answers.gitHubUserName}. Here is the link to my GitHub profile: ${answers.linktoGitHubProfile}.
   `;
 
 
