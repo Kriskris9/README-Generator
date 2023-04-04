@@ -11,13 +11,8 @@ inquirer
     },
     {
       type: 'input',
-      name: 'tableOfContents',
-      message: "Please provide a description of your project:?",
-    },
-    {
-      type: 'input',
       name: 'description',
-      message: "Please provide a description of your project:?",
+      message: "Please provide a description of your project?",
     },
     {
       type: 'input',
@@ -31,7 +26,7 @@ inquirer
     }, {
       type: 'input',
       name: 'contributing',
-      message: 'How can someone contribute to your project?',
+      message: 'Did anyone help contribute to this project?',
     },
     {
       type: 'input',
@@ -120,7 +115,7 @@ This project is licensed under the ${answers.license} license.
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at ${answers.gitHubEmail}. My GitHub username is${answers.gitHubUserName}. Here is the link to my GitHub profile: ${answers.linktoGitHubProfile}.
+If you have any questions about the repo, open an issue or contact me directly at ${answers.gitHubEmail}. My GitHub username is: ${answers.gitHubUserName}. Here is the link to my GitHub profile: ${answers.linktoGitHubProfile}.
   `;
 
 
