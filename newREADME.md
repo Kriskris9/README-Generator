@@ -1,11 +1,11 @@
 
-# ReadMe
+# ReadMe Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-Professional ReadMe Generator
+this is a demonstration for module 9
 
 ## Table of Contents
 
@@ -18,19 +18,19 @@ Professional ReadMe Generator
 
 ## Installation
 
-Please install node.js
+please install node
 
 ## Usage
 
-To create a professional README.
+to create a professional readme.md
 
 ## Contributing
 
-My wonderful friends!
+my wonderful friends!
 
 ## Tests
 
-use node index.js to answer prompts and see if it creates a new README file
+use node to answer prompts!
 
 ## License
 
@@ -38,5 +38,5 @@ This project is licensed under the MIT license.
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at kbanla@aol.com. My GitHub username is: Kriskriss9	. Here is the link to my GitHub profile: https://github.com/Kriskris9.
+If you have any questions about the repo, open an issue or contact me directly at kbanla@aol.com. My GitHub username is: kriskris9 . Here is the link to my GitHub profile: enter link here!.
   

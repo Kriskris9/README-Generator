@@ -30,3 +30,7 @@ Please refer to the LICENSE in the repo.
 ![alt](./assets/Screenshot%202023-04-03%20at%209.38.28%20PM.png)
 
 
+## Deployed 
+
+https://watch.screencastify.com/v/yfOA5g1Hit0EkgBnso9o
+
