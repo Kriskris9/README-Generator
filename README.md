@@ -28,9 +28,10 @@ Please refer to the LICENSE in the repo.
 
 ## Assets
 ![alt](./assets/Screenshot%202023-04-03%20at%209.38.28%20PM.png)
+![alt](/assets/screenshots/NEWREADME.png)
 
 
-## Deployed 
+## WalkThrough Video
 
 https://watch.screencastify.com/v/yfOA5g1Hit0EkgBnso9o
 
